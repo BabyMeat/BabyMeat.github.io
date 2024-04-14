@@ -1,3 +1,22 @@
+/* Styles pour le contenu */
+#content {
+    text-align: center; /* Centrer le contenu */
+    margin-top: 20vh; /* Marge en haut pour centrer verticalement */
+}
+
+/* Styles pour le paragraphe */
+p {
+    font-size: 24px; /* Taille de la police */
+    color: #333; /* Couleur du texte */
+}
+
+.blink {
+    visibility: hidden; /* Masque le texte */
+}
+
+
+/* NAVBAR */
+
 /* Styles pour le conteneur de la barre de navigation */
 #navbar-container {
     display: flex; /* Utiliser flexbox */

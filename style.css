@@ -1,15 +1,19 @@
-/* Styles pour le contenu */
-#content {
-    text-align: center; /* Centrer le contenu */
-    margin-top: 20vh; /* Marge en haut pour centrer verticalement */
+/* Styles pour le conteneur de la barre de navigation */
+#navbar-container {
+    display: flex; /* Utiliser flexbox */
+    justify-content: space-between; /* Espacement égal entre les éléments */
+    align-items: center; /* Centrer verticalement les éléments */
+    padding: 10px; /* Ajouter un peu d'espacement */
 }
 
-/* Styles pour le paragraphe */
-p {
-    font-size: 24px; /* Taille de la police */
+/* Styles pour le logo de la navbar */
+#navbar-logo-container img {
+    width: 50px; /* Définir une largeur pour l'image */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+
+/* Styles pour les liens de la navbar */
+#navbar-links a {
     color: #333; /* Couleur du texte */
-}
-
-.blink {
-    visibility: hidden; /* Masque le texte */
+    text-decoration: none; /* Supprimer le soulignement des liens */
 }

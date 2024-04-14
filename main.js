@@ -1,3 +1,4 @@
+/*
 // Sélectionne l'élément contenant le texte à faire clignoter
 const textElement = document.querySelector('p');
 
@@ -9,3 +10,4 @@ function blinkText() {
 
 // Appelle la fonction blinkText toutes les 500 millisecondes (0.5 secondes)
 setInterval(blinkText, 500);
+*/

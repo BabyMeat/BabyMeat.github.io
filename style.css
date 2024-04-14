@@ -1,38 +1,65 @@
-/* Styles pour le contenu */
-#content {
-    text-align: center; /* Centrer le contenu */
-    margin-top: 20vh; /* Marge en haut pour centrer verticalement */
-}
-
-/* Styles pour le paragraphe */
-p {
-    font-size: 24px; /* Taille de la police */
+* {
+    font-size: 12px; /* Taille de la police */
     color: #333; /* Couleur du texte */
+    text-decoration: none; /* Supprimer le soulignement des liens */
 }
 
-.blink {
-    visibility: hidden; /* Masque le texte */
+p {
+    text-align: center; /* Centrer le contenu */
 }
-
 
 /* NAVBAR */
-
-/* Styles pour le conteneur de la barre de navigation */
-#navbar-container {
+#navbar {
     display: flex; /* Utiliser flexbox */
     justify-content: space-between; /* Espacement égal entre les éléments */
     align-items: center; /* Centrer verticalement les éléments */
     padding: 10px; /* Ajouter un peu d'espacement */
 }
 
-/* Styles pour le logo de la navbar */
-#navbar-logo-container img {
+/* LOGO NAVBAR */
+#navbar-logo img {
     width: 50px; /* Définir une largeur pour l'image */
     height: auto; /* Hauteur automatique pour conserver les proportions */
 }
 
-/* Styles pour les liens de la navbar */
-#navbar-links a {
-    color: #333; /* Couleur du texte */
-    text-decoration: none; /* Supprimer le soulignement des liens */
+/* INTRO */
+#intro {
+    display: flex; /* Utiliser flexbox */
+    justify-content: center; /* Centrer horizontalement les éléments */
+    align-items: center; /* Centrer verticalement les éléments */
 }
+
+/* GAME SECTION */
+#section-jeux {
+    display: flex; /* Utiliser flexbox */
+    justify-content: center; /* Centrer horizontalement les éléments */
+    align-items: center; /* Centrer verticalement les éléments */
+}
+
+/* Images GAME SECTION  */
+#section-jeux img {
+    height: 100px;
+    border-radius: 10%; /* Appliquer un rayon de bordure pour créer des coins arrondis */
+    text-align: center; /* Centrer le contenu */
+    margin: 10px;
+}
+
+
+
+/*
+.blink {
+    visibility: hidden;
+}
+#section-jeux {
+    text-align: center;
+    margin-top: 20vh;
+}
+p {
+    font-size: 24px;
+    color: #333; 
+}   
+#navbar-links a {
+    color: #333; 
+    text-decoration: none;
+} 
+*/
